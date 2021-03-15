@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treballs RIA Alejandro Beneito Colomina</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="<link rel = " preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Quicksand: wght @ 300 & display = swap"
+        rel="hoja de estilo"" rel=" stylesheet">
+    <style type="text/css">
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        body {
+            background-image: url('./img/plu.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+
+        .grid-container {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            box-sizing: border-box;
+            padding: 0 16px;
+            font-family: 'Arena movediza', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #000000;
+            background-size: cover;
+            background-position: left;
+            background-image: url('img/pattern.png');
+            height: 450px;
+        }
+
+        h1 {
+            font-size: 10vw;
+            line-height: 1em;
+            font-weight: 700;
+        }
+
+        nav {
+            box-sizing: border-box;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0 16px;
+            height: 149px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 10%;
+            color: yellow;
+        }
+
+        main {
+            padding: 137px 16px 0 16px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+        }
+
+        section {
+            width: 100%;
+            margin: 0 0 32px 0;
+            display: flex;
+            flex-direction: column;
+            height: 348px;
+            background: #222222;
+        }
+
+        section figure img {
+            width: 100%;
+            height: 291px;
+            object-position: left;
+            object-fit: cover;
+        }
+
+        section figcaption {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            width: 100%;
+            height: 414px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .xxss {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .xxss a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-family: 'Arena movediza', sans-serif;
+        }
+        .email {
+            text-align: center;
+        }
+
+        .xxss,
+        .email {
+            background: black;
+            width: 100%;
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            header {
+                background-image: url('img/pattern_qtablet.png');
+                padding: 0 11em;
+            }
+
+            h1 {
+                font-size: 10vw;
+                line-height: 1em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 6vw;
+                background: none;
+                width: 100%;
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 5vw;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            section {
+                width: 400px;
+                margin: 0 0 1.6em 0;
+                display: flex;
+                flex-direction: column;
+                height: 348px;
+                background: white;
+            }
+
+            .grid-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+
+            h1 {
+                font-size: 6vw;
+                line-height: 1em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 4vw;
+                width: 100%;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 4vw;
+                padding: 0 0 0 10vw;
+            }
+
+            h1 br {
+                display: none;
+            }
+
+            nav {
+                position: center;
+                justify-content: flex-start;
+                padding: 0 11em;
+                display: flex;
+            }
+
+            nav a {
+                padding: 0 2.5em 0 0.5em;
+            }
+
+            section {
+                min-width: 20em;
+                max-width: 23em;
+                height: 20em;
+            }
+
+            section figure img {
+                width: 100%;
+                height: 15em;
+                object-position: bottom;
+                object-fit: cover;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            nav {
+                position: center;
+                justify-content: flex-start;
+                padding: 0 11em;
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Recursos<br> Interactius<br> Aplicats</h1>
+            <h2>2gp - EASDAlcoi</h2>
+            <h3>Alejandro Beneito Colomina</h3>
+        </header>
+        <nav class="menu">
+            <a href="#">projectes</a>
+            <a href="#">contacte</a>
+        </nav>
+        <main class="main">
+            <section>
+                <figure>
+                    <a href="https://www.instagram.com/1amstreetwear/?hl=es">
+                        <img src="img/1am.jpg" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <a href="./../index/index.html">
+                        <img src="img/Captura.JPG" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="xxss">
+                <a href="https://www.instagram.com/thatplu/?hl=es">Instagram</a>
+                <a href="https://www.instagram.com/thatplu/?hl=es">Twitter</a>
+                <a href="https://es-es.facebook.com/alejandro.beneitocolomina">Facebook</a>
+            </div>
+            <div class="email">
+                <a href="mailto:beneitoca@easdalcoi.es">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
